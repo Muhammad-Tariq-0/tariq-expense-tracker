@@ -1,0 +1,55 @@
+.midheading{
+  text-align: center;
+}
+.appbox{
+  max-width: 450px;
+  min-height: 700px;
+  background-color: lightblue;
+  margin: auto;
+  margin-top: 40px;
+  padding: 15px 50px;
+  box-shadow: 0 0 22px brown;
+  border-radius: 9px;
+  
+}
+.amountbox{
+  display: flex;
+  justify-content: space-around;
+  background-color: cyan;
+  border-bottom-style: double;
+  box-shadow: 0 0 10px green;
+ 
+}
+.newtransactions >li{
+  display: flex;
+  justify-content: space-between;
+  margin: 3px;
+  padding-top: 5px;
+ 
+}
+.trascAdd input{
+  width: 100%;
+  height: 30px;
+  margin-top: 7px;
+  border-width: 3px;
+  border-color: lightseagreen;
+  box-shadow: 0 2px 6px magenta; 
+  border-right-style: solid;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.button{
+  background-color: royalblue;
+  max-width: 70%;
+  margin-left: 63px;
+  min-height: 50px;
+  font-size: 20px;
+  border-radius: 10px;  
+  border-bottom-style: double;
+}
+.minus{
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+  
+}
+.plus{
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(0,255,0,1));
+}
