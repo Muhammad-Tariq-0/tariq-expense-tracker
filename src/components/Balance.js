@@ -8,7 +8,7 @@ export const Balance = () => {
     return (
         <div>
             <h2><br/>Your Balance is:</h2>
-            <h2> <marquee>Rs.{total}</marquee></h2>
+            <h1 className="move"> Rs.{total}</h1>
             {/* <h2><br/><marquee>Your Balance is: {total}</marquee> </h2> */}
             </div>  
 

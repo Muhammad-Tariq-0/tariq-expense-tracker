@@ -78,3 +78,8 @@
 .plus{
   background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(0,255,0,1));
 }
+.move{
+position: relative;
+ left: 150px;
+}
+
