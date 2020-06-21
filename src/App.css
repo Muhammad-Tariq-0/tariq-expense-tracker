@@ -15,7 +15,7 @@
 }
 .appbox{
   max-width: 450px;
-  min-height: 700px; 
+  min-height: 600px; 
   background-image: url("2.jpg");
   margin: auto;
   margin-top: 10px;
@@ -79,6 +79,6 @@
 }
 .move{
 position: relative;
- left: 150px;
+ left: 90px;
 }
 
