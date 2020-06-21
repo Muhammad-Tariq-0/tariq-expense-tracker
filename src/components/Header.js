@@ -2,8 +2,8 @@ import React from 'react'
 
 export const Header = () => {
     return (
-        <div>
-            <h1 className="midheading">Expense Tracker</h1>
+        <div className="midheading">
+            <h1 className="newmid">Expense Tracker</h1>
         </div>
     )
 }

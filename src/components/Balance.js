@@ -6,7 +6,11 @@ export const Balance = () => {
    const amounts = transactions.map(transaction => transaction.amount);
    const total = amounts.reduce((acc, item) => (acc += item),0).toFixed(2);
     return (
-            <h2>Your Balance: Rs.{total}</h2>
+        <div>
+            <h2><br/>Your Balance is:</h2>
+            <h2> <marquee>Rs.{total}</marquee></h2>
+            {/* <h2><br/><marquee>Your Balance is: {total}</marquee> </h2> */}
+            </div>  
 
     )
 }

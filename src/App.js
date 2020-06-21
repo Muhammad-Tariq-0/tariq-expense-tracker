@@ -18,7 +18,7 @@ function App() {
       <NewTransactions/>
       <br/>
       <center><footer>&copy; by Muhammad Tariq</footer></center>
-
+      
       </div>
     </TransactionProvider>
     

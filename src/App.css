@@ -1,17 +1,39 @@
 .midheading{
   text-align: center;
+  color: whitesmoke;
+  background-image: url("2.jpg");
+  max-width: 300px;
+  min-height: 45px; 
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 12px 10px yellowgreen ;
+}
+.newmid{
+  background-color:transparent;
+  max-width: 270px;
+  min-height: 40px; 
 }
 .appbox{
   max-width: 450px;
-  min-height: 700px;
-  background-color: lightblue;
+  min-height: 700px; 
+  background-image: url("2.jpg");
   margin: auto;
-  margin-top: 40px;
+  margin-top: 10px;
   padding: 15px 50px;
   box-shadow: 0 0 22px brown;
   border-radius: 9px;
   
 }
+/* .newbox{
+  max-width: 400px;
+  min-height: 500px;
+  background-color: transparent;
+  margin: auto;
+  margin-top: 20px;
+  padding: 15px 50px;
+  box-shadow: 0 0 22px brown;
+  border-radius: 9px;
+} */
 .amountbox{
   display: flex;
   justify-content: space-around;
@@ -25,6 +47,7 @@
   justify-content: space-between;
   margin: 3px;
   padding-top: 5px;
+
  
 }
 .trascAdd input{
@@ -33,9 +56,11 @@
   margin-top: 7px;
   border-width: 3px;
   border-color: lightseagreen;
-  box-shadow: 0 2px 6px magenta; 
+  box-shadow: 0 3px 5px magenta; 
   border-right-style: solid;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border-radius: 5px;
+  
 }
 .button{
   background-color: royalblue;
